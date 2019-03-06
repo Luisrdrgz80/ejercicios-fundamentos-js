@@ -33,3 +33,15 @@ let gente = [{
         edad: 10
     },
 ]
+
+var i;
+for (var num of gente) {
+    if ((num.edad) > 25) {
+        console.log(num.nombre);
+    }
+}
+
+var genteQueEmpiezaPorJ = [];
+for (nombre of gente) {
+
+}

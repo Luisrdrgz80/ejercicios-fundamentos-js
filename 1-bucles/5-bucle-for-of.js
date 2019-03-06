@@ -33,3 +33,10 @@ let gente = [{
         edad: 10
     },
 ]
+
+for (var i of gente) {
+    var a = i.nombre.substr(0, 1);
+    if (a === 'J') {
+        console.log(i.nombre)
+    }
+}
