@@ -14,6 +14,7 @@
 
 // Aquí tu código.  Desde aquí:
 const conCuantosParametrosMeHanEjecutado;
+
 // Hasta aquí.
 
 
@@ -26,4 +27,4 @@ let test = require('../test.js');
 
 test(conCuantosParametrosMeHanEjecutado, [], 0);
 test(conCuantosParametrosMeHanEjecutado, ['hola', 'caracola'], 2);
-test(conCuantosParametrosMeHanEjecutado, ['33', '44',' '], 3);
+test(conCuantosParametrosMeHanEjecutado, ['33', '44', ' '], 3);
