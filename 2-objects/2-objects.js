@@ -5,7 +5,14 @@
 
 
 // Aquí tu código
-
+var obj = {
+    a: {
+        b: true,
+        c: ['hola', 5],
+    },
+    d: 5,
+    f: 'hola',
+};
 // Hasta aquí
 
 // TEST 1
@@ -35,7 +42,7 @@ if (typeof obj.d === 'number') {
     console.log('suspendes');
 }
 // TEST 5
-if ( obj.d > 4 && obj.d < 8) {
+if (obj.d > 4 && obj.d < 8) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
@@ -48,7 +55,7 @@ if (typeof obj.f === 'string') {
     console.log('suspendes');
 }
 // TEST 6
-if ( obj.f.length === 4) {
+if (obj.f.length === 4) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
