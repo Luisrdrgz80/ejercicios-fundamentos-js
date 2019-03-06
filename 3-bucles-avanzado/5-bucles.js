@@ -10,14 +10,18 @@
 //  PISTA: utilizad un bucle for of
 
 let giveMeIntegerRandom = max => Math.round(Math.random() * max) + 1;
-let arr = [];
-for (let i = 0; i < giveMeIntegerRandom(10); i++) {
+var arr = [];
+for (var i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
 console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
+var total = 0;
 
+for (i = 0; i < arr.length; i++) {
+    total += arr[i];
+}
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);
